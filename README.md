@@ -25,7 +25,7 @@ The next time you execute the script, extraction will start from where you left.
 
 ## Courtesy
 1. All images are copyright of Nintendo.
-2. The source of these images is https://gearoid.me/pokemon, a fantastic Pokemon guessing browser-based game.
+2. The source of these images is https://gearoid.me/pokemon, a fantastic browser-based Pokemon guessing game.
 
 **Few points to note:**
 1. If you get disconnected, and an image is not correctly extracted, delete the incomplete image and restart the process.
