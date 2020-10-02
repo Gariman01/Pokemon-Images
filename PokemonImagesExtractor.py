@@ -27,7 +27,11 @@ fhand.close()
 print('To stop the process, change the text in stopFile.txt to "stop".')
 
 for i in range(s,e+1):
-    fhand = open('stopFile.txt','r')
+    try:
+        fhand = open('stopFile.txt','r')
+    except:
+        input('Seems like you have deleted stopFile.txt. Press "Enter" to exit.')
+        quit()
     if(fhand.read()=='stop'): break
     fhand.close()
     
@@ -40,4 +44,5 @@ for i in range(s,e+1):
         print('Could not extract '+str(i)+'.png.')
 
 fhand.close()
+os.remove('stopFile.txt')
 input('Done. Press "Enter" to exit.')
