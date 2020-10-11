@@ -11,9 +11,6 @@ Just install this script, execute it and you are ready to go!
 4. Can stop the process at any time and continue later as the images are extracted one by one.
 5. Does not require an excellent internet connection.
 
-## Example Image
-<img src="1.png"/>
-
 ## Prerequisite
 Only Python 3 needs to be installed in your system. If you don't have it, no worry download it from [here](https://www.python.org/downloads/) (it is a small download!) and install it.
 
