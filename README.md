@@ -5,7 +5,7 @@ If yes, then you are at the right place as I have made a python script which ena
 Just install this script, execute it and you are ready to go!
 
 ## Features
-1. Can extract images of all Pokémon till any Pokémon upto Generation 8 (the latest generation!).
+1. Can extract images of all Pokémon till any Pokémon up to Generation 8 (the latest generation!).
 2. Images are the **official artwork of Pokémon** released by Nintendo.
 3. Images have a transparent background.
 4. Can stop the process at any time and continue later as the images are extracted one by one.
