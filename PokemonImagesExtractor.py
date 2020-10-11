@@ -30,7 +30,7 @@ for i in range(s,e+1):
     try:
         fhand = open('stopFile.txt','r')
     except:
-        input('Seems like you have deleted stopFile.txt. Press "Enter" to exit.')
+        input('Seems like you have deleted stopFile.txt. As a result, the process has ended. Press "Enter" to exit.')
         quit()
     if(fhand.read()=='stop'): break
     fhand.close()
