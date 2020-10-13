@@ -15,9 +15,9 @@ Just install this script, execute it and you are ready to go!
 Only Python 3 needs to be installed in your system. If you don't have it, no worry download it from [here](https://www.python.org/downloads/) (it is a small download!) and install it.
 
 ## Steps To Extract The Images
-1. Create a folder/directory named "Pokémon Images".
-2. Download the script PokemonImagesExtractor.py and keep it in the directory containing the directory of "Pokémon Images" you just created.
-3. Execute the script and wait as the images start appearing in the "Pokémon Images" directory.
+1. Create a folder/directory named "Pokemon Images".
+2. Download the script PokemonImagesExtractor.py and keep it in the directory containing the directory of "Pokemon Images" you just created.
+3. Execute the script and wait as the images start appearing in the "Pokemon Images" directory.
 
 ## Termination
 If at some point you wish to stop/pause the extraction, you are just a step away.
