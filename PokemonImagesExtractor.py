@@ -7,7 +7,7 @@ import urllib.request
 while True:
     inp = input('Enter the Pokemon number till which you want to extract (simply press "Enter" if you want to extract all the images): ')
     if inp=='':
-        e = 890  # This is the total number of Pokemon till date.
+        e = 893  # This is the total number of Pokemon till date.
         break
     else:
         try:
@@ -18,7 +18,7 @@ while True:
 
 s = 1 # Extraction starts from this Pokemon number.
 
-url = 'https://gearoid.me/pokemon/images/artwork/'
+url = 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/'
 savedTo = 'Pokemon Images/'  # This is the directory in which the images will be saved.
 
 fhand = open('stopFile.txt','w')
@@ -39,7 +39,7 @@ for i in range(s,e+1):
     if os.path.isfile(loc): continue
     
     try:
-        urllib.request.urlretrieve(url+str(i)+'.png',loc)
+        urllib.request.urlretrieve(url+str(i).zfill(3)+'.png',loc)
     except:
         print('Could not extract '+str(i)+'.png.')
 

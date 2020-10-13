@@ -6,7 +6,7 @@ Just install this script, execute it and you are ready to go!
 
 ## Features
 1. Can extract images of all Pokémon till any Pokémon up to Generation 8 (the latest generation!).
-2. Images are the **official artwork of Pokémon** released by Nintendo.
+2. Images are the **official artwork of Pokémon** released by The Pokémon Company.
 3. Images have a transparent background.
 4. Can stop the process at any time and continue later as the images are extracted one by one.
 5. Does not require an excellent internet connection.
@@ -16,7 +16,7 @@ Only Python 3 needs to be installed in your system. If you don't have it, no wor
 
 ## Steps To Extract The Images
 1. Create a folder/directory named "Pokémon Images".
-2. Download the script and keep it in the directory containing the directory of "Pokémon Images" you just created.
+2. Download the script PokemonImagesExtractor.py and keep it in the directory containing the directory of "Pokémon Images" you just created.
 3. Execute the script and wait as the images start appearing in the "Pokémon Images" directory.
 
 ## Termination
@@ -25,8 +25,7 @@ You need to open the stopFile.txt which is created when the extraction is in pro
 The next time you execute the script, extraction will start from where you left.
 
 ## Courtesy
-1. All images are copyright of Nintendo.
-2. The source of these images is https://gearoid.me/pokemon, a fantastic browser-based Pokémon guessing game.
+All images are copyright of The Pokémon Company with the source of these images being https://www.pokemon.com/us/.
 
 **Few points to note:**
 1. If you get disconnected, and an image is not correctly extracted, delete the incomplete image and restart the process.
