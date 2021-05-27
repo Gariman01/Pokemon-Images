@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# Pokémon Images
+Tired of finding a good resource from which you can download all the images of our favourite fictional creatures Pokémon?
+Or found a source but it is too large for your network to handle?
+If yes, then you are at the right place as I have made a python script which enables you to extract the png images of all the Pokémon pretty seamlessly.
+Just install this script, execute it and you are ready to go!
 
-You can use the [editor on GitHub](https://github.com/Gariman01/Pokemon-Images/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Features
+1. Can extract images of all Pokémon till any Pokémon up to Generation 8 (the latest generation!).
+2. Images are the **official artwork of Pokémon** released by The Pokémon Company.
+3. Images have a transparent background.
+4. Can stop the process at any time and continue later as the images are extracted one by one.
+5. Does not require an excellent internet connection.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Prerequisite
+Only Python 3 needs to be installed in your system. If you don't have it, no worry download it from [here](https://www.python.org/downloads/) (it is a small download!) and install it.
 
-### Markdown
+## Steps To Extract The Images
+1. Create a folder/directory named "Pokemon Images".
+2. Download the script PokemonImagesExtractor.py and keep it in the directory containing the directory of "Pokemon Images" you just created.
+3. Execute the script and wait as the images start appearing in the "Pokemon Images" directory.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Termination
+If at some point you wish to stop/pause the extraction, you are just a step away.
+You need to open the stopFile.txt which is created when the extraction is in progress, change the text in it from "start" to "stop" and save it.
+The next time you execute the script, extraction will start from where you left.
 
-```markdown
-Syntax highlighted code block
+## Courtesy
+All images are copyright of The Pokémon Company with the source of these images being https://www.pokemon.com/us/.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Gariman01/Pokemon-Images/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**Few points to note:**
+1. If you get disconnected, and an image is not correctly extracted, delete the incomplete image and restart the process.
+2. Images will be named with the corresponding Pokémon number (as per the National Pokédex).
